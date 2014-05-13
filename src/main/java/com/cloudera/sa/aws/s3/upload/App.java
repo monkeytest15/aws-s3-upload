@@ -36,9 +36,8 @@ public class App
     		System.exit(1);
     	}
     	String fileName = filePath.substring(filePath.lastIndexOf('/')+1);
-    	//Integer statsInterval = 5000;
    
-    	String bucketName = "pebert-s3upload";
+    	String bucketName = "mah-bucket";
     	String key = fileName;
     	InputStream input = null;
 		try {
